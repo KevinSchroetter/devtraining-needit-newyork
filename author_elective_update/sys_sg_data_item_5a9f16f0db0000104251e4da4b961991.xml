@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="DELETE">
+        <condition_type>declarative</condition_type>
+        <description>Open NeedIt records of a user-specified Request type</description>
+        <group_by/>
+        <name>Specified Request Type</name>
+        <query_condition table="x_58872_needit_needit">active=true^u_request_type={{Req Type}}^ORDERBYnumber<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item display_value="{{Req Type}}" endquery="false" field="u_request_type" goto="false" newquery="false" operator="=" or="false" value="{{Req Type}}"/>
+            <item endquery="false" field="" goto="false" newquery="false" operator="ORDERBY" or="false" value="number"/>
+        </query_condition>
+        <query_condition_script/>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-20 06:31:12</sys_created_on>
+        <sys_id>5a9f16f0db0000104251e4da4b961991</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Specified Request Type</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_sg_data_item_5a9f16f0db0000104251e4da4b961991</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-20 07:17:03</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+    </sys_sg_data_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=5a9f16f0db0000104251e4da4b961991"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>5e580236dbec770052cec59705961996</instance_id>
+        <instance_name>dev78957</instance_name>
+        <name>sys_sg_data_item_5a9f16f0db0000104251e4da4b961991</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item"><sys_sg_data_item action="INSERT_OR_UPDATE"><condition_type>declarative</condition_type><description>Open NeedIt records of a user-specified Request type</description><group_by/><name>Specified Request Type</name><query_condition table="x_58872_needit_needit">active=true^u_request_type={{Req Type}}^ORDERBYnumber<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/><item display_value="{{Req Type}}" endquery="false" field="u_request_type" goto="false" newquery="false" operator="=" or="false" value="{{Req Type}}"/><item endquery="false" field="" goto="false" newquery="false" operator="ORDERBY" or="false" value="number"/></query_condition><query_condition_script/><sys_class_name>sys_sg_data_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-20 06:31:12</sys_created_on><sys_id>5a9f16f0db0000104251e4da4b961991</sys_id><sys_mod_count>5</sys_mod_count><sys_name>Specified Request Type</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_sg_data_item_5a9f16f0db0000104251e4da4b961991</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-20 07:17:03</sys_updated_on><table>x_58872_needit_needit</table></sys_sg_data_item><sys_translated_text action="delete_multiple" query="documentkey=5a9f16f0db0000104251e4da4b961991"/></record_update>]]></payload>
+        <payload_hash>-1435795342</payload_hash>
+        <record_name>Specified Request Type</record_name>
+        <reverted_from/>
+        <source>5084b3aadbf733004251e4da4b961959</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-20 07:17:03</sys_created_on>
+        <sys_id>021aae3cdb0000104251e4da4b9619a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d4d8807c40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-20 07:17:03</sys_updated_on>
+        <type>Data Item</type>
+        <update_guid>8a1aae3cee000010e41070c5732bf5a7</update_guid>
+        <update_guid_history>8a1aae3cee000010e41070c5732bf5a7:-1435795342,cff9a63c93000010f50732e9b58a968b:-855487968,52ef9af08c00001026c4f4fa7cf4e068:-1435795342,de9f16f0e9000010337f841892bcb194:-1230424613</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-20 07:32:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_data_item">sys_sg_data_item</sys_db_object>
+        <sys_id>0fd9d95b1a444c0c87ea5acef09eceb9</sys_id>
+        <sys_metadata>5a9f16f0db0000104251e4da4b961991</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Specified Request Type</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_sg_data_item_5a9f16f0db0000104251e4da4b961991</sys_update_name>
+        <sys_update_version display_value="sys_sg_data_item_5a9f16f0db0000104251e4da4b961991">021aae3cdb0000104251e4da4b9619a8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-20 07:32:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
